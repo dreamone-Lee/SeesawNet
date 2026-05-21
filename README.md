@@ -4,6 +4,16 @@ Official source code for the IJCAI 2026 accepted paper:
 
 **SeesawNet: Towards Non-stationary Time Series Forecasting with Balanced Modeling of Common and Specific Dependencies**
 
+## Authors
+
+Hao Li<sup>1</sup>, Lu Zhang<sup>2,*</sup>, Liu Chong<sup>1</sup>, Yankai Chen<sup>3</sup>, Pengyang Wang<sup>4</sup>, Yingjie Zhou<sup>1,*</sup>
+
+<sup>1</sup>Sichuan University  
+<sup>2</sup>Chengdu University of Information Technology  
+<sup>3</sup>McGill University  
+<sup>4</sup>University of Macau  
+<sup>*</sup>Corresponding authors
+
 ## Overview
 
 SeesawNet is a PyTorch implementation for long-term time series forecasting under non-stationary settings. The repository contains the main SeesawNet model, ablation variants, experiment code, and shell scripts for the benchmark datasets used in long-term forecasting.
@@ -152,8 +162,8 @@ If you use this repository, please cite:
 ```bibtex
 @inproceedings{seesawnet2026,
   title     = {SeesawNet: Towards Non-stationary Time Series Forecasting with Balanced Modeling of Common and Specific Dependencies},
+  author    = {Li, Hao and Zhang, Lu and Chong, Liu and Chen, Yankai and Wang, Pengyang and Zhou, Yingjie},
   booktitle = {Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence},
   year      = {2026}
 }
 ```
-

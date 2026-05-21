@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime outputs
+checkpoints/
+logs/
+csv_results/
+test_results/
+results/
+*.pth
+*.pt
+*.ckpt
+
+# Datasets
+dataset/*
+!dataset/.gitkeep
+
